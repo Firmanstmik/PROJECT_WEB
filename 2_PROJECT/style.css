@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Roboto+Condensed:ital,wght@0,100;0,200;0,400;1,500&display=swap");
+
+body {
+  --primary-color: #669ccb;
+  --primary-color-dark: #5681a7;
+  --secondary-color: #e8f1fa;
+  --text-dark: #282d31;
+  --text-light: #767268;
+  --extra-light: #f3f4f6;
+
+  --max-width: 1200px;
+}
+
+.section_container {
+  padding: 5rem 1rem;
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.section_title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.section_subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--primary-color);
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  transform: translateX(-50%);
+  padding: 2rem 1rem;
+  width: 40%;
+  max-width: var(--max-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo a {
+  text-decoration: none;
+  color: var(--extra-light);
+  font-size: 1.5rem;
+  font-size: 1rem;
+}
+
+.nav_links {
+  display: none;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+}
+
+.link {
+  color: var(--extra-light);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.7rem;
+}
+
+.link:hover {
+  color: var(--primary-color);
+}
+
+header {
+  width: 50%;
+  height: 500px;
+  background-image: linear-gradient(
+      rgba(45, 92, 132, 0.5),
+      rgba(45, 92, 132, 0.5)
+    ),
+    url(img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+header .section_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: var(--extra-light);
+}
+
+.header_content h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.header_content button {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--extra-light);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header_content button:hover {
+  background-color: var(--primary-color-dark);
+}
+
+@media (min-width: 640px) {
+  .nav_links {
+    display: flex;
+  }
+}
+
+.header_content h1 {
+  color: var(--extra-light);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  flex: 0 0 33.333%;
+}
+
+.col-md-12 {
+  flex: 0 0 100%;
+}
+
+#edit {
+  background-color: #cfcfcf;
+  float: left;
+  padding: 5px;
+  display: flex;
+  width: 50%;
+  margin-left: 5px;
+  padding-left: 65px;
+}
+
+.edit-area {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.edit-single-icon {
+  border: 3px solid gray;
+  font-size: 30px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 85px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.icon1 {
+  width: 100px;
+  position: absolute; /* menentukan posisi absolut */
+  top: 57.8%; /* menentukan jarak nol dari tepi atas */
+  left: 8.1%;
+}
+
+.icon2 {
+  width: 100px;
+  position: absolute; /* menentukan posisi absolut */
+  top: 57.8%; /* menentukan jarak nol dari tepi atas */
+  left: 22.3%;
+}
+
+.icon3 {
+  width: 100px;
+  position: absolute; /* menentukan posisi absolut */
+  top: 57.8%; /* menentukan jarak nol dari tepi atas */
+  left: 36.4%;
+}
+
+.flex {
+  width: 47%;
+  margin: -250px 960px;
+  padding: 45px;
+  box-sizing: border-box;
+}
+
+.flex h1 {
+  font-size: 2.8rem;
+  padding-bottom: 20px;
+}
+
+.flex p {
+  font-size: 1.5rem;
+  word-spacing: 3px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.account {
+  display: flex;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.followers {
+  font-size: 15px;
+}
+
+.button {
+  background-color: #cfcfcf;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
