@@ -6,6 +6,8 @@
 }
 
 body {
+  /* margin: 0; */
+  padding: 0;
   align-items: center;
   text-align: center;
   background-color: white;
@@ -47,31 +49,32 @@ nav ul li a:hover {
 }
 
 .back {
-  padding: 4rem 1rem;
+  position: relative;
+  padding-top: 50px;
+  padding-left: 10px;
 }
 
 h1 {
   position: relative;
-  bottom: 550px;
+  bottom: 450px;
 }
 
 .produk {
   position: relative;
-  left: 36%;
-  bottom: 500px;
+  left: 34%;
   float: left;
-  margin: 0 auto;
+  bottom: 390px;
 }
 .produk h6 {
+  position: relative;
   color: white;
   text-align: center;
-  margin-bottom: 5px;
 }
 
 .custom {
   position: relative;
-  bottom: 235px;
-  right: 330px;
+  bottom: 173px;
+  right: 310px;
 }
 
 .produk:hover {
@@ -90,23 +93,21 @@ h2 {
 }
 
 .content {
+  position: relative;
   display: flex;
-  text-align: center;
-  justify-content: center;
-  position: absolute;
-  left: 500px;
-  bottom: -20px;
 }
 
 .card {
-  padding: 20px;
+  position: relative;
+  text-align: center;
+  bottom: 100px;
+  right: 290px;
   margin: 20px;
-  width: 570px;
+  width: 100%;
 }
 
 .card h2 {
   font-size: 1.5em;
-  margin-bottom: 10px;
 }
 
 .card p {
@@ -116,12 +117,9 @@ h2 {
 }
 
 .badan {
-  width: 90%;
-  margin: 90px auto;
+  position: relative;
+  width: 100%;
   background-color: white;
-  padding: 20px;
-  overflow: hidden;
-  padding-left: 100px;
 }
 
 .badan h2 {
@@ -138,6 +136,7 @@ h2 {
   width: 200px;
   margin: 5px;
   align-items: center;
+  margin-left: 20px;
 }
 
 .list-produk:hover {
@@ -182,4 +181,8 @@ h2 {
 
 .tombol-beli {
   background-color: crimson;
+}
+
+.col {
+  padding-left: 25px;
 }
